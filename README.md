@@ -7,16 +7,21 @@ Windfury Template jQuery Plugin
 
 Description
 ========================================
-Windfury is a simple web framework, which main focus is divide the frontend code in components. Working with components helps isolate the responsability of the pages, helping in code maintenance.
+Windfury is a simple web framework, which main focus is to help developers to organize their front-end code in components. Working with components helps to isolate the responsibility of each part of the app and thus enhance its legibility, reutilization and maintainability.
 
 Getting Started
 ========================================
 
-This is a simple example of a [single page html](./src/main/webapp/sample.html) is not needed to the Windfury works, but it's to exemplify the full workflow
+This is a simple example of a [single page html](./src/main/webapp/sample.html) to show Windfury in action.
 
-This [main javascript](./src/main/webapp/js/main.js) is a example of windfury call using hashchange trigger, where we consider that all pages of this website will be available at /page and all will have a exported function called "open"
+_This is only to exemplify a complete workflow of the framework, keep in mind that we may have a lot of different app structures using the same Windfury APIs._
 
-The main page we've created is called [Main.html](./src/main/webapp/page/Main.html) and this page uses two of our components available in /comp, you can see the components [here](./src/main/webapp/comp)
+Inside the page __<head>__ tag, we can find a reference to the [main javascript](./src/main/webapp/js/main.js), which is
+a example of how to use Windfury with a hashchange trigger. The script considers that all pages will be available inside
+the __/page__ folder and they will export an API function called __"open"__.
+
+The main page of the app is called [Main.html](./src/main/webapp/page/Main.html) and it is composed by two Windfury
+components which are available in the __/comp__ folder. Both components can be found [here](./src/main/webapp/comp).
 
 Extras information
 ========================================
